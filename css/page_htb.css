@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	/* background-color: #edeff2;*/
+	font-family: 'Open Sans', sans-serif;
+	color: #D6D6D6;
+	font-size: 16px;
+	line-height: 40px;
+}
+/* Text 文字特效 */
+
+.hero_Heading{
+	text-align:center;
+	color:#FFF;
+	font-size: 48px;
+  	line-height: 60px;
+	margin-top:50px;	
+}
+.hero_SubHeading{
+	background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #000);
+	margin-bottom:30px;
+	text-align:center;
+	font-size: 24px;
+	color:#FFF;
+	
+}
+.prologue{
+	padding:20px;
+	font-family:Microsoft JhengHei;
+	font-size: 24px;
+	text-align:center;
+	color:#000;
+	border:5px solid #000;
+	background-color:Yellow;
+}
+.bodyText{
+	margin:40px 20px;
+	line-height: 30px;
+	text-indent: 2em;
+	color:#251101;
+	letter-spacing:2px;
+}
+
+/* Typesetting 排版 */
+
+.heroJumbrtron{
+	background-color:#2C5784;
+}
+
+.blanking{
+	padding-top:auto;
+	padding-bottom:auto;
+	background-color:#000;
+}
+.textToTop{
+	 text-align:center;
+	 margin:40px auto;	
+}
+.footerColor{
+		background-color:#470024;		
+}
+.footerContainer{
+		padding-top:30px;
+		padding-bottom:10px;
+}
+.footerLogo{
+		padding-bottom:10px;
+}

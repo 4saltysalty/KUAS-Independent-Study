@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	/* background-color: #edeff2;*/
+	font-family: 'Open Sans', sans-serif;
+	color: #D6D6D6;
+	font-size: 16px;
+	line-height: 30px;
+}
+/*--Navigation_Start--*/
+
+/*--Navigation_End--*/
+
+/*--Section_Start--*/
+.heroSection{
+	
+	margin:auto;
+	text-align:center;
+	line-height:150px;
+	background-repeat:no-repeat;
+	position:static;
+	
+}
+.hero_Heading{
+	
+	margin-top:280px;
+	margin-bottom:30px;
+	text-align:center;
+	color:#FFF;
+	font-size: 48px;
+  	line-height: 60px;
+
+	
+	
+}
+.hero_SubHeading{
+	background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #000);
+	margin:auto;
+	text-align:center;
+	font-size: 24px;
+	color:#FFF;
+}
+.heading_1{
+	color:#000;
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:15px;
+	font-size: 48px;
+  	line-height: 60px;
+  	font-weight: 300;
+  	letter-spacing: 10px;
+
+}
+.sub_heading_1{
+	color:#333;
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:30px;
+	font-size: 16px;
+  	line-height: 25px;
+  	font-weight: 300;
+  	letter-spacing: 10px;
+}
+.sectionForButton{
+	margin-top:16px;
+	margin-bottom:80px;
+	text-align:center;
+}
+.heading_1.heading_2{
+	margin-bottom:-80px;
+	}
+.sectionText{	
+		margin-top:-70px;
+		margin-bottom:auto;
+		padding-right:100px;
+		padding-left:100px;
+		line-height: 25px;
+		text-indent: 2em;
+		color:#251101;
+		letter-spacing:2px;
+}
+.BirthSection{
+	
+	margin:auto;
+	text-align:center;
+	line-height:60px;
+	background-repeat:no-repeat;
+	position:static;
+	
+}
+.sectionTextdischarge{	
+		padding-top:20px;
+		line-height: 25px;
+		text-indent: 2em;
+		color:#251101;
+		letter-spacing:2px;
+}
+.textTitle{
+	color:#FFF;
+}
+
+/*--Section_End--*/
+/*--container_background--*/
+.heroContainer{
+		background-image: -webkit-radial-gradient(79% 115%, #000, rgba(232, 238, 243, .22) 83%),url(../img/heroSection.jpg);
+		background-image:radial-gradient(circle farthest-corner at 79% 115%, #000, rgba(232, 238, 243, .22) 83%),url(../img/heroSection.jpg);
+    	background-size:cover auto;	
+}
+
+.birthContainer{
+		background-color:#B0C4DE;
+		border-radius:10px;	
+}
+.imgColor{
+		background-color:#FFF;
+		border-top:2px solid #5b1865;
+		border-top-left-radius:150px;
+		border-top-right-radius:150px;
+		border-bottom:2px solid #5b1865;
+		border-bottom-left-radius:20px;
+		border-bottom-right-radius:20px;
+		margin-bottom:30px;
+}
+.footerColor{
+		background-color:#470024;	
+		line-hight:40px;	
+}
+.footerContainer{
+		padding-top:30px;
+		padding-bottom:10px;
+}
+.footerLogo{
+		padding-bottom:10px;
+}
